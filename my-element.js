@@ -35,7 +35,13 @@ class MyElement extends LitElement {
         </div>
       </div>
     </nav> 
-
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
     <!-- Page Content -->
     <div class="container">
 
@@ -45,7 +51,11 @@ class MyElement extends LitElement {
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
         <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
       </header>
-
+     <div class="row text-center">
+        <div class="col-lg-12 col-md-12 mb-12">
+          <h3>Some cards</h3>
+         </div>
+      </div>
       <!-- Page Features -->
       <div class="row text-center">
 
@@ -104,9 +114,96 @@ class MyElement extends LitElement {
       </div>
       <!-- /.row -->
 
-    </div>
-    <!-- /.container -->
 
+      <div class="row text-center">
+
+        <div class="col-lg-12 col-md-12 mb-12">
+        <h3>Some data</h3>
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <!-- /.row -->
+
+     <div class="row text-center">
+        <div class="col-lg-12 col-md-12 mb-12">
+          <h3>Some panels</h3>
+         </div>
+      </div>
+
+     <div class="row text-center">
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" >
+            <div class="card-header bg-primary text-white">
+              Featured
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" >
+            <div class="card-header bg-primary text-white">
+              Featured
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" >
+            <div class="card-header bg-primary text-white">
+              Featured
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+   <!-- /.row -->
+
+          </div>
+    <!-- /.container -->
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
