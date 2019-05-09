@@ -202,6 +202,78 @@ class MyElement extends LitElement {
       </div>
    <!-- /.row -->
 
+     <div class="row ">
+        <div class="col-lg-12 col-md-12 mb-12">
+          <h3 class="text-center">Some form</h3>
+          
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          
+         </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-lg-12 col-md-12 mb-12">
+         <h3 class="text-center">Some progress bars</h3>
+         </div>
+      </div>
+          
+      <div class="row ">
+        <div class="col-lg-12 col-md-12 mb-12">
+      
+          <div class="card" >
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="progress">
+                  <div class="progress-bar text-left" role="progressbar" style="width: 95%; padding-left:20px;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"> Javascript 95%</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="progress">
+                  <div class="progress-bar text-left" role="progressbar" style="width: 85%; padding-left:20px;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"> Lit Element 85%</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="progress">
+                  <div class="progress-bar text-left" role="progressbar" style="width: 90%; padding-left:20px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"> Css 90%</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="progress">
+                  <div class="progress-bar text-left" role="progressbar" style="width: 80%; padding-left:20px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"> PWA 80%</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+ 
+       
+       
+        
+        </div>
+      </div>
+ <div class="row ">
+        <div class="col-lg-12 col-md-12 mb-12">
+&nbsp;
+    </div>
+      </div>
+
+
+
           </div>
     <!-- /.container -->
     <!-- Footer -->
